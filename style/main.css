@@ -1,0 +1,91 @@
+
+/*
+ #3253D2 blue
+ #8F98B4 grey
+ #8F98B4 grey
+*/
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.Main {
+  padding-top: 100px;
+}
+
+.Main__content-contact-wrapper {
+  text-align: center;
+}
+
+.Main__content {
+  display: flex;
+  width: 90%;
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px;
+  border-radius: 30px;
+  box-shadow: 10px 10px 37px 0px rgba(0,0,0,0.1);
+}
+
+.Main__content-contact-image {
+  display: inline-block;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+.Main__content-name-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 24px;
+  color: #3253D2;
+  font-weight: 800;
+  padding-top: 20px;
+}
+
+.Main__content-position {
+  padding-top: 5px;
+  text-align: center;
+  font-size: 15px;
+  color: #3253D2;
+}
+
+.Main__content-info {
+  flex: 1;
+}
+
+.Main__content-contact-list {
+  padding-top: 20px;
+}
+
+.Main__link {
+  display: inline-block;
+  text-decoration: none;
+  color: #8F98B4;
+}
+
+.Main__content-contact-list-item {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.Main__content-contact-list-item-icon {
+  margin-right: 10px;
+}
+
+.Main__content-contact-list-item-link {
+  display: flex;
+}
+
+.Main__icon {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+}
+
+.Main__label {
+  font-size: 18px;
+  color: #8F98B4;
+}
