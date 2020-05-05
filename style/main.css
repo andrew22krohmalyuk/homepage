@@ -52,10 +52,6 @@ body {
   color: #3253D2;
 }
 
-.Main__content-info {
-  flex: 1;
-}
-
 .Main__content-contact-list {
   padding-top: 20px;
 }
@@ -92,4 +88,25 @@ body {
 .Main__label {
   font-size: 18px;
   color: #8F98B4;
+}
+
+.Main__content-info {
+  flex: 1;
+  padding-left: 20px;
+}
+
+.Main__content-info-section {
+
+}
+
+.Main__content-info-title {
+  font-size: 21px;
+  color: #3253D2;
+  padding-bottom: 20px;
+}
+
+.Main__content-info-content {
+  color: #8F98B4;
+  font-size: 17px;
+  line-height: 1.4;
 }
