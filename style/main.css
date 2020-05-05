@@ -154,3 +154,7 @@ body {
   content: '-';
   transform: translateY(-50%);
 }
+
+.Main__content-info-skill-row {
+  margin-bottom: 5px;
+}
