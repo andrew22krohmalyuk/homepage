@@ -11,14 +11,18 @@ body {
 
 .Main {
   padding-top: 100px;
+  margin-bottom: 50px;
 }
 
 .Main__content-contact-wrapper {
   text-align: center;
+  /*position: sticky;*/
+  /*top: 30px;*/
 }
 
 .Main__content {
   display: flex;
+  align-items: flex-start;
   width: 90%;
   max-width: 1100px;
   margin-left: auto;
@@ -153,6 +157,10 @@ body {
   top: 40%;
   content: '-';
   transform: translateY(-50%);
+}
+
+.Main__ig-wrapper {
+  padding-top: 10px;
 }
 
 .Main__content-info-skill-row {
