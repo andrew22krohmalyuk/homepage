@@ -10,20 +10,17 @@ body {
 }
 
 .Main {
-  padding-top: 100px;
-  margin-bottom: 50px;
+  padding: 50px 0;
 }
 
 .Main__content-contact-wrapper {
   text-align: center;
-  /*position: sticky;*/
-  /*top: 30px;*/
 }
 
 .Main__content {
   display: flex;
   align-items: flex-start;
-  width: 90%;
+  width: 80%;
   max-width: 1100px;
   margin-left: auto;
   margin-right: auto;
@@ -141,7 +138,7 @@ body {
 
 .Main__content-work-place-list {
   padding-top: 5px;
-  padding-left: 15px;
+  padding-left: 25px;
 }
 
 .Main__content-work-place-list-item {
@@ -153,7 +150,7 @@ body {
 
 .Main__content-work-place-list-item:before {
   position: absolute;
-  left: -10px;
+  left: -15px;
   top: 40%;
   content: '-';
   transform: translateY(-50%);
@@ -165,4 +162,22 @@ body {
 
 .Main__content-info-skill-row {
   margin-bottom: 5px;
+}
+
+@media screen and (max-width: 860px) {
+  .Main {
+    padding: 0;
+  }
+
+  .Main__content {
+    align-items: center;
+    flex-direction: column;
+    box-shadow: unset;
+  }
+
+  .Main__content-info {
+    padding-top: 50px;
+    padding-left: 0;
+    max-width: 500px;
+  }
 }
